@@ -33,7 +33,7 @@ public class Calculator {
                 }
             } else if (c == '%') {
                 if (b == 0) {
-                    System.out.println("\n" + "Еблан на 0 не делят");
+                    System.out.println("\n" + "На 0 не делят");
                 } else {
                     a = (a * 100) / b;
                     System.out.println("\n" + "a % b = " + a);
